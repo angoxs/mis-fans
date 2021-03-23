@@ -18,7 +18,7 @@ export default function Header() {
           <Name src="/logo-name.svg" />
         </Logo>
         <CallToAction>
-          <Text>Eres creador de contenido?</Text>
+          <Text>¿Eres creador de contenido?</Text>
           <Button>Regístrate</Button>
         </CallToAction>
       </Content>

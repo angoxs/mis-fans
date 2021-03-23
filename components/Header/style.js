@@ -23,11 +23,6 @@ export const Logo = styled("div", {
   flexDirection: "row",
   alignItems: "center",
   justifyContent: "center",
-
-  "@bp1": {
-    flexDirection: "column",
-    alignItems: "flex-start",
-  },
 });
 
 export const Icon = styled("img", {
@@ -43,7 +38,7 @@ export const Name = styled("img", {
   "@bp1": {
     width: 60,
     height: 30,
-    marginLeft: 0,
+    marginLeft: 8,
   },
 });
 
@@ -67,8 +62,7 @@ export const Text = styled("p", {
   marginRight: 12,
 
   "@bp1": {
-    fontSize: 16,
-    marginRight: 0,
+    display: "none",
   },
 });
 
