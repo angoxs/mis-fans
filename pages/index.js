@@ -18,7 +18,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          2021
           <img
             src="/icons/heart.svg"
             alt="Vercel Logo"
