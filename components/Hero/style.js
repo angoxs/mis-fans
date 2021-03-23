@@ -8,7 +8,7 @@ export const Container = styled("div", {
   padding: "120px 90px 220px",
 
   "@bp1": {
-    padding: "90px 20px 60px",
+    padding: "90px 20px 150px",
   },
 });
 
@@ -19,10 +19,6 @@ export const Content = styled("div", {
   alignItems: "center",
   justifyContent: "center",
   textAlign: "center",
-
-  "@bp1": {
-    padding: "3rem 0",
-  },
 });
 
 export const Title = styled("h1", {
