@@ -14,11 +14,13 @@
 
 .footer a {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   color: white;
 }
 
 .logo {
-  height: 1em;
+  height: 18px;
+  width: 18px;
 }
