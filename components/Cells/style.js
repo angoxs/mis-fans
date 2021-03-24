@@ -24,7 +24,7 @@ export const Content = styled("div", {
 export const Title = styled("h1", {
   margin: 0,
   color: "white",
-  fontSize: 72,
+  fontSize: 36,
   lineHeight: "115%",
   fontWeight: "bold",
 
@@ -40,13 +40,20 @@ export const Subtitle = styled("p", {
   fontSize: 19,
   fontWeight: "500",
   lineHeight: "150%",
+  maxWidth: 600,
 
   "@bp1": {
     fontSize: 18,
   },
 });
 
-export const Image = styled("img", {
-  marginTop: 99.32,
-  width: "100%",
+export const Grid = styled("div", {
+  display: "grid",
+  gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
+  marginTop: 60,
+  gridGap: 16,
+
+  "@bp1": {
+    gridTemplateColumns: "1fr",
+  },
 });

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header, Hero } from "../components";
+import { Cells, CTA, Header, Hero } from "../components";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,6 +11,8 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
+      <Cells />
+      <CTA />
 
       <footer className={styles.footer}>
         <a
