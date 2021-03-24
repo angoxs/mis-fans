@@ -2,7 +2,7 @@ import { styled } from "../../../stitches.config";
 
 const Frame = styled("div", {
   background: "#161616",
-  padding: 30,
+  padding: 20,
   borderRadius: 12,
   border: "1px solid rgba(255, 255, 255, 0.1)",
   display: "flex",

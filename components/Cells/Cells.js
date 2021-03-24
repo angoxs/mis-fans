@@ -24,28 +24,28 @@ export default function Cells() {
           <Fade up>
             <Cell
               icon="/ellipse.svg"
-              name="Contenido Exclusivo"
+              name="Regalos"
               description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts."
             />
           </Fade>
           <Fade up>
             <Cell
               icon="/ellipse.svg"
-              name="Contenido Exclusivo"
+              name="Videos Personalizados"
               description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts."
             />
           </Fade>
           <Fade up>
             <Cell
               icon="/ellipse.svg"
-              name="Contenido Exclusivo"
+              name="Chat Privado"
               description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts."
             />
           </Fade>
           <Fade up>
             <Cell
               icon="/ellipse.svg"
-              name="Contenido Exclusivo"
+              name="Meet & Greet"
               description="A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise layouts."
             />
           </Fade>

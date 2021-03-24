@@ -22,6 +22,10 @@ export const Box = styled("div", {
   padding: 76,
   width: "100%",
   position: "relative",
+
+  "@bp1": {
+    padding: 60,
+  },
 });
 
 export const Title = styled("h1", {
@@ -30,10 +34,6 @@ export const Title = styled("h1", {
   fontSize: 36,
   lineHeight: "115%",
   fontWeight: "bold",
-
-  "@bp1": {
-    fontSize: 44,
-  },
 });
 
 export const Subtitle = styled("p", {
@@ -70,7 +70,7 @@ export const Face01 = styled("img", {
   "@bp1": {
     top: "-60px",
     left: "-20px",
-    width: 120,
+    width: 90,
   },
 });
 
@@ -82,6 +82,6 @@ export const Face02 = styled("img", {
   "@bp1": {
     bottom: "-60px",
     right: "-20px",
-    width: 120,
+    width: 90,
   },
 });
